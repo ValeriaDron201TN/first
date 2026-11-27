@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Навігаційна карта — Геометричні фігури</title>
+</head>
+<body bgcolor="#F5EEF8" text="#2C3E50">
+
+   <h1 align="center"><font face="Verdana" color="#6C3483">Навігація по моїх сторінках</font></h1>
+   <hr color="#D7BDE2" size="2" width="75%">
+
+   <p align="center">
+      <font face="Verdana" size="3">
+         Натисніть на потрібну геометричну фігуру, щоб перейти на відповідну сторінку:
+      </font>
+   </p>
+
+   <!-- Карта під твій малюнок (600x350) -->
+   <map name="shapes_map">
+      <!-- Рожевий трикутник -> Про мене -->
+      <area shape="poly" coords="112,28,31,228,193,228,112,28" href="DronLab01-9.htm" alt="Про мене" title="Про мене">
+
+      <!-- Жовте коло -> Посилання -->
+      <area shape="circle" coords="345,122,95" href="DronLab05-3.htm" alt="Посилання" title="Посилання">
+
+      <!-- Блакитний прямокутник -> Моя Батьківщина -->
+      <area shape="rect" coords="90,204,402,340" href="DronLab06-3.htm" alt="Моя Батьківщина" title="Моя Батьківщина">
+   </map>
+
+   <center>
+      <img src="image/menu_shapes.png" width="600" height="350" border="2" usemap="#shapes_map" alt="Навігаційна карта">
+   </center>
+
+   <br>
+   <p align="center">
+      <font face="Verdana" size="2" color="#6C3483">
+         <i>Рожевий трикутник — Про мене | Жовте коло — Посилання | Блакитний прямокутник — Моя Батьківщина</i>
+      </font>
+   </p>
+
+</body>
+</html>
